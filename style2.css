@@ -1,0 +1,340 @@
+* {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+
+/** TOPBAR CONTENT **/
+
+.topbar{
+    height: 45px; 
+    background-color: rgb(198, 198, 198);
+    display: flex;
+    align-items: center;
+}
+.topbar1{
+    font-size: 13px;
+    color: black;
+    margin-left: 300px;
+    margin-top: 10px;
+}
+.topbar2{
+    font-size: 13px;
+    color: black;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+
+/** NAVBAR CONTENT **/
+
+.navbar{
+    height: 45px;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(157, 157, 157);
+}
+.navbar-options{
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-evenly;
+}
+.navbar-options p{
+    font-size: 13px;
+    
+}
+.navbar-options i{
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+/** SHOP HERE **/
+
+.shop-here{
+    height: 35px;
+    width: 100%;
+    background-color: white;
+    align-items: center;
+    text-align: center;
+}
+.shop-here p{
+    font-size: 14px;
+    text-align: center;
+    margin-top: 5px;
+    color: black;
+}
+
+/** IPHONE 14 PRO **/
+
+.iphone-14-pro{
+    height: 612px;
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+.iphone-14-pro-content{
+    text-align: center;
+    
+   
+}
+.ip-14-pro{
+    font-size: 50px;
+    font-weight: 600;
+}
+.ip-14-pro-slogan{
+    font-size: 30px;
+    font-weight: 500;
+}
+.learn-more-option{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    margin-top: 15px;
+}
+.buy{
+    margin-left: 30px;
+}
+.iphone-14-pro-image{
+    background-image: url("iphone.jpg");
+    height: 400px;
+    width: 70%;
+    margin-left: 25%;
+    margin-right: 15%;
+    align-items: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 39px;
+    justify-content: center;
+}  
+
+/** IPHONE 14 **/
+
+.iphone-14{
+    height: 620px;
+    width: 100%;
+}
+.iphone-14-content{
+    text-align: center;
+    margin-top: 25px;
+}
+.ip-14{
+    font-size: 50px;
+    font-weight: 600;
+}
+.ip-14-slogan{
+    font-size: 30px;
+    font-weight: 500;
+}
+.iphone-14-image{
+    background-image: url("iphone14.png");
+    height: 400px;
+    width: 70%;
+    margin-left: 25%;
+    margin-right: 15%;
+    align-items: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 39px;
+    justify-content: center;
+}
+
+/** APPLE TV **/
+
+.apple-tv-image-border{
+    height: 600px;
+    background-color: rgb(254, 252, 252);
+    align-items: center;
+    justify-content: center;
+
+}
+.apple-tv-image{
+    background-image: url("apple\ tv.jpg");
+    height: 600px;
+    width: 80%;
+    margin-left: 15%;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+/** SMALL CONTENT**/
+
+.small-contents{
+    height: 1300px;
+    background-color: rgb(228, 226, 226);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+
+/** MAC OR IPAD **/
+
+.mac-or-ipad{
+    height: 450px;
+    width: 50%;
+}
+.mac-or-ipad-image{
+    background-image: url("yeh\ dalde.png");
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-right: 5%;
+}
+
+/** MACBOOK **/
+
+.macbook{
+    height: 450px;
+    width: 50%;
+}
+.macbook-image{
+    background-image: url("macbook.jpg");
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/** VISION PRO **/
+
+.vision-pro{
+    height: 450px;
+    width: 50%;
+}
+.vision-pro-image{
+    background-image: url("vision\ pro.jpg");
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-right: 5%;
+}
+.vision-pro-text{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.vision-pro-text-1{
+    font-size: 50px;
+    color: white;
+    font-weight: 550;
+    line-height: 110%;
+}
+.vision-pro-text-2{
+    font-size: 20px;
+    color: white;
+    line-height: 20%;
+}
+.vision-pro-text-3{
+    font-size: 15px;
+    color: white;
+    line-height: 0.1%;
+}
+
+/** APPLE WATCH **/
+
+.apple-watch{
+    height: 450px;
+    width: 50%;
+}
+.apple-watch-image{
+    background-image: url("apple\ watch.png");
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.apple-watch-text{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.apple-watch-text-1{
+    font-size: 50px;
+    color: white;
+    font-weight: 550;
+    line-height: 10%;
+}
+.apple-watch-text-2{
+    height: 20px;
+    font-size: 15px;
+    font-weight: 700;
+    color: red;
+    line-height: 0.1%;
+}
+
+/** IPAD PRO **/
+
+.ipad-pro-image-border{
+    height: 450px;
+    width: 50%;
+}
+.ipad-pro-image{
+    background-image: url("ipsd\ pro.png");
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-right: 5%;
+}
+.ipad-pro-text-1{
+    font-size: 50px;
+    color: white;
+    font-weight: 550;
+    line-height: 1.8%;
+}
+.ipad-pro-text-2{
+    height: 20px;
+    font-size: 15px;
+    font-weight: 600;
+    color: white;
+    line-height: 0.1%;
+}
+
+/** APPLE CARD **/
+
+.apple-card-image-border{
+    height: 450px;
+    width: 50%;
+}
+.apple-card-image{
+    background-image: url("asli\ apple\ card.webp");
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-right: 5%;
+}
+
+/** TERMS AND CONDITION **/
+
+.terms-and-condition{
+    border-top: 20px solid white;
+    height: 300px;
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color: rgba(254, 252, 252, 0.2);
+    color: rgb(157, 157, 157);
+    font-size: 12px;
+align-items: center;
+justify-content: center;
+}
+
+/** BOTTOM BAR **/ 
+
+.bottom-bar{
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 300px;
+    align-items: center;
+    justify-content: space-evenly;
+    display: flex;
+    font-size: 12px;
+    line-height: 10%;
+    text-align: center;
+
+}
